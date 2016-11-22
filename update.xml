@@ -2,11 +2,12 @@
 	<update>
 		<name>Editor Template</name>
 		<description>Editor Template</description>
-		<element>plg_editortemplate</element>
+		<element>editortemplate</element>
 		<type>plugin</type>
+		<folder>system</folder>
 		<version>1.0.2</version>
 		<infourl title="Editor Template 1.0.2">
-			Editor Template 1.0.2 - Initial Release
+			Editor Template 1.0.2
 		</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/Joomla-StackExchange/editorTemplate/archive/1.0.2.zip</downloadurl>
@@ -20,11 +21,12 @@
 	<update>
 		<name>Editor Template</name>
 		<description>Editor Template</description>
-		<element>plg_editortemplate</element>
+		<element>editortemplate</element>
 		<type>plugin</type>
+		<folder>system</folder>
 		<version>1.0.2</version>
 		<infourl title="Editor Template 1.0.2">
-			Editor Template 1.0.2 - Initial Release
+			Editor Template 1.0.2
 		</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/Joomla-StackExchange/editorTemplate/archive/1.0.2.zip</downloadurl>
