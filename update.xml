@@ -1,0 +1,38 @@
+<updates>
+	<update>
+		<name>Editor Template</name>
+		<description>Editor Template</description>
+		<element>plg_editortemplate</element>
+		<type>plugin</type>
+		<version>1.0.0</version>
+		<infourl title="Editor Template 1.0.0">
+			Editor Template 1.0.0 - Initial Release
+		</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/Joomla-StackExchange/editorTemplate/archive/1.0.0.zip</downloadurl>
+		</downloads>
+		<maintainer>webchun</maintainer>
+		<maintainerurl>https://twitter.com/webchun</maintainerurl>
+		<targetplatform name="joomla" version="2.5"/>
+		<client>0</client>
+		<client_id>0</client_id>
+	</update>
+	<update>
+		<name>Editor Template</name>
+		<description>Editor Template</description>
+		<element>plg_editortemplate</element>
+		<type>plugin</type>
+		<version>1.0.0</version>
+		<infourl title="Editor Template 1.0.0">
+			Editor Template 1.0.0 - Initial Release
+		</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/Joomla-StackExchange/editorTemplate/archive/1.0.0.zip</downloadurl>
+		</downloads>
+		<maintainer>webchun</maintainer>
+		<maintainerurl>https://twitter.com/webchun</maintainerurl>
+		<targetplatform name="joomla" version="3.[1234567]"/>
+		<client>0</client>
+		<client_id>0</client_id>
+	</update>
+</updates>

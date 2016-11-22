@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - Editor Template</name>
+	<creationDate>22-11-2016</creationDate>
+	<version>1.0.0</version>
+	<author>webchun</author>
+	<copyright>Copyright 2016 - webchun</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>webchun@yahoo.com</authorEmail>
+	<authorUrl>https://twitter.com/webchun</authorUrl>
+	<description>PLG_SYSTEM_EDITOR_TEMPLATE_DESCRIPTION</description>
+	<files>
+		<filename plugin="editortemplate">editortemplate.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_editortemplate.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_editortemplate.sys.ini</language>
+	</languages>
+	<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="templatename" type="folderlist" default="default" label="PLG_SYSTEM_TEMPLATE_TEMPLATE_NAME_LABEL" directory="../templates" description="PLG_SYSTEM_TEMPLATE_TEMPLATE_NAME_DESC" />
+		</fieldset>
+	</fields>
+    </config>
+    <updateservers>
+        <server type="extension" name="Editor Template" priority="1">https://raw.githubusercontent.com/Joomla-StackExchange/editorTemplate/master/update.xml</server>
+    </updateservers>
+</extension>
