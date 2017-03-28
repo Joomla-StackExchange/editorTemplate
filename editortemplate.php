@@ -15,7 +15,7 @@ class plgSystemeditorTemplate extends JPlugin
 	{
 		$app = JFactory::getApplication();
 
-		if (!$app->isClient('site'))
+		if (!$app->isSite())
 		{
 			return;
 		}
