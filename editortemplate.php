@@ -13,8 +13,14 @@ class plgSystemeditorTemplate extends JPlugin
 {
 	public function onAfterRoute()
 	{
+		$app = JFactory::getApplication();
+
+		if (!$app->isSite())
+		{
+			return;
+		}
+
 		$template = $this->params->get('templatename', 'protostar');
-	    	$app      = JFactory::getApplication();
 		$view     = $app->input->get('view');
 
 	        if ($view == 'form')
