@@ -23,7 +23,7 @@ class plgSystemeditorTemplate extends JPlugin
 		$template = $this->params->get('templatename', 'protostar');
 		$view     = $app->input->get('view');
 
-	        if ($view == 'form')
+	        if ($view === 'form')
 		{
 			$app->setTemplate($template, null);
 	        }
