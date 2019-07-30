@@ -9,23 +9,28 @@
 
 defined('_JEXEC') or die;
 
-class plgSystemeditorTemplate extends JPlugin
+use Joomla\CMS\Plugin\CMSPlugin;
+
+class plgSystemeditorTemplate extends CMSPlugin
 {
+	/**
+	 * Application object.
+	 */
+	protected $app;
+
 	public function onAfterRoute()
 	{
-		$app = JFactory::getApplication();
-
-		if (!$app->isSite())
+		if ($this->app->isClient('administrator'))
 		{
 			return;
 		}
 
 		$template = $this->params->get('templatename', 'protostar');
-		$view     = $app->input->get('view');
+		$view     = $this->app->input->get('view');
 
 	        if ($view === 'form')
 		{
-			$app->setTemplate($template, null);
+			$this->app->setTemplate($template, null);
 	        }
 	}
 }
