@@ -27,8 +27,9 @@ class plgSystemeditorTemplate extends CMSPlugin
 
 		$template = $this->params->get('templatename', 'protostar');
 		$view     = $this->app->input->get('view');
-
-	        if ($view === 'form')
+		$controller     = $this->app->input->get('controller');
+		
+		if (($view === 'form')||($controller=== 'config.display.modules') )
 		{
 			$this->app->setTemplate($template, null);
 	        }
